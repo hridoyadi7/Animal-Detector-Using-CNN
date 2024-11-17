@@ -75,5 +75,15 @@ This Flutter application demonstrates a post list with individual timers for eac
 
 ## Directory Structure
 
-lib/ │ ├── controllers/ │ ├── post_controller.dart # Manages the retrieval and handling of post data. │ ├── timer_controller.dart # Handles the timer logic, including starting, pausing, and resuming timers for posts. │ ├── views/ │ ├── post_list_view.dart # Displays the list of posts and manages the interaction with timers. │ ├── post_detail_view.dart # Shows the detailed view of a selected post and manages timer state when navigating. │ └── main.dart # The entry point for the Flutter application.       
-
+lib/ 
+|______controllers
+|          |
+|          |______post_controller.dart 
+|          |
+|          |______timer_controller.dart
+|
+|________views
+|           |______post_list_view.dart
+|           |
+|           |______post_detail_view.dart
+|________main.dart          
