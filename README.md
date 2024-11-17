@@ -3,4 +3,4 @@ This Flutter application demonstrates a post list with individual timers for eac
 # Architectural Choices
 ## State Management
 * GetX
-      ** Handles reactive state management, dependency injection, and routing.
+- Handles reactive state management, dependency injection, and routing.
