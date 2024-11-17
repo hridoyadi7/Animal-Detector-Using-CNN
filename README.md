@@ -76,14 +76,36 @@ This Flutter application demonstrates a post list with individual timers for eac
 ## Directory Structure
 
 lib/ 
+
+
 |______controllers
+
+
 |          |
+
+
 |          |______post_controller.dart 
+
+
 |          |
+
+
 |          |______timer_controller.dart
+
+
 |
+
+
 |________views
+
+
 |           |______post_list_view.dart
+
+
 |           |
+
+
 |           |______post_detail_view.dart
+
+
 |________main.dart          
