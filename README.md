@@ -55,4 +55,5 @@ This Flutter application demonstrates a post list with individual timers for eac
    ```
    flutter pub get
 3. Run the application:
-   ```flutter run
+   ```
+   flutter run
