@@ -57,3 +57,33 @@ This Flutter application demonstrates a post list with individual timers for eac
 3. Run the application:
    ```
    flutter run
+
+## Application Features
+
+### Post List:
+- Displays a list of posts, each with its own independent timer.
+- When a post is clicked, its timer pauses, while the timers for other posts continue running.
+- When navigating back to the post list, the paused timer for the clicked post resumes from where it left off.
+
+### Post Details:
+- Shows the detailed view of a selected post.
+- The timer for the post pauses when the user clicks on it and resumes correctly when navigating back, ensuring the timer state is preserved across screens.
+
+### Independent Timers:
+- Each post has a dedicated timer.
+- Only the timer of the clicked post pauses, while other timers continue running in the background.
+
+## Directory Structure
+
+lib/
+│
+├── controllers/
+│   ├── post_controller.dart       # Manages post data
+│   ├── timer_controller.dart      # Manages timer logic
+│
+├── views/
+│   ├── post_list_view.dart        # Post list screen
+│   ├── post_detail_view.dart      # Post details screen
+│
+└── main.dart         
+
