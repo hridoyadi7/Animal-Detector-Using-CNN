@@ -48,6 +48,7 @@ This Flutter application demonstrates a post list with individual timers for eac
 
 ### Setup
 1. Clone the repository:
-   ```bash
    git clone <repository-url>
    cd <repository-folder>
+2. Install dependencies:
+   flutter pub get
