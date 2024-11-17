@@ -81,7 +81,7 @@ lib/
 |______controllers
 
 
-|          |
+|
 
 
 |          |______post_controller.dart 
@@ -102,7 +102,7 @@ lib/
 |           |______post_list_view.dart
 
 
-|           |
+|        
 
 
 |           |______post_detail_view.dart
